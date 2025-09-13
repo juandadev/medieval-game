@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bimirvi5k4ll1"]
+
+[ext_resource type="Texture2D" uid="uid://bo45hgg7py535" path="res://assets/sprites/character.png" id="1_f7cmv"]
+[ext_resource type="Script" uid="uid://t17jfok038dl" path="res://Sprite2d.cs" id="2_mehiu"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(548, 316)
+scale = Vector2(0.0284281, 0.0284281)
+texture = ExtResource("1_f7cmv")
+script = ExtResource("2_mehiu")
